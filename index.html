@@ -27,16 +27,18 @@ Bora lá? Então valendo! Esse desafio é individual, mas incentivamos que você
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Landing Page - Desafio Hiring Coders#2">
     <meta name="keywords" content="GAMA Landing Page, Hiring Coders #2, Gama Academy, VTEX">
+    <meta name="author" content="André Matiello Carani Caramanti">
     
     <!-- Title -->
     <title>Landing Page - Desafio Hiring Coders#2 - André Matiello</title>
 
     <!-- Style -->
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/materialize.css">
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" /> -->
 
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import Google Icon Font-->
+    <link rel="stylesheetFont" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" sizes="16x16">
@@ -44,40 +46,27 @@ Bora lá? Então valendo! Esse desafio é individual, mas incentivamos que você
 
 
   <body>
+    <!-- <div>
+      <h1 class="center white-text" style="margin-top: 20%; font-family: 'Russo One', sans-serif;">Soluções em Manutenção</h1>
+    </div> -->
+
     <div class="container">
-    
-      <header>
-          <div id="logo">
-    
-          </div>
+      <h2 class="container-title">Concorra a uma passagem para a Lua!</h2>
+      <p class="container-subtitle">#toTheMoon</p>
+                          
+        <form class="box">
+          <input id="email" class="box-input" type="email" name="email" placeholder="E-mail" autocomplete="off">
+          <span id="spanEmail" class="msg-error">Por favor, insira um e-mail válido!</span>
 
-          <div id="social-media">
-    
-          </div>
-      </header>
+          <button onclick="submitForm()" class="box-button" type="button">ENVIAR</button>
 
-      <section id="principal" class="col s12">
-        <div id="dados-entradas" class="col s6 offset-s6">
-          <h1 class="wow fadeInUp" data-wow-delay="0.1s">Concorra a uma passagem para a Lua!</h1>
-          <p class="wow fadeInUp" data-wow-delay="0.2s"> #toTheMoon </p>
-          <div class="sub-form wow fadeInUp" data-wow-delay="0.3s">
-            <form class="subscribe-form wow zoomIn" action="php/subscribe.php" method="post" name="subscribeform" id="subscribeform">
-              <input class="mail" type="email" name="email" placeholder="E-mail" autocomplete="off" id="subemail">
-              <input class="submit-button" type="submit" value="ENVIAR" name="send" id="subsubmit">
-            </form>
-          </div>
-        </div>
-      </section>
-      
+          <span id="msgSuccess"></span>
+          <span id="msgError"></span>
 
-      <section>
+        </form>
         
-      </section>
-
-
-      <footer>
-
-      </footer>
     </div>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
