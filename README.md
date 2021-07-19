@@ -43,5 +43,5 @@ Bora lá? Então valendo! Esse desafio é individual, mas incentivamos que você
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 
-[Netlify Link](https://app.netlify.com/sites/gama-hiringcoders-desafio-landingpage/deploys)
+[Netlify Link](https://gama-hiringcoders-desafio-landingpage.netlify.app/)
 
